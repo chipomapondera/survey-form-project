@@ -1,0 +1,106 @@
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #424242;
+  margin: 5px auto;
+  padding: 10px;
+  background-color: #B2EBF2;
+  text-align:center;
+}
+
+h1 {
+  margin: 20px auto;
+  padding-bottom: 20px;
+}
+
+h3 {
+  margin: 0;
+  padding-bottom: 40px;
+  font-weight: 500;
+}
+
+#survey-form {
+  background-color: #FAFAFA;
+  max-width: 700px;
+  display: block;
+  margin: auto;
+  padding: 50px;
+  border: 2px solid #757575;
+  border-radius: 7px;
+}
+
+.form-elements {
+  margin: 10px auto;
+  padding: 5px;
+}
+
+.questions {
+  display: inline-block;
+  text-align: right;
+  vertical-align: top;
+  margin: 0;
+  padding: 5px;
+  float: left;
+  width: 50%;
+}
+
+.answers{
+  display: inline-block;
+  text-align: left;
+  margin: 0;
+  padding: 5px;
+  position: relative;
+  right: 45px;
+}
+
+#name, #email, #number {
+  height: 25px;
+  width: 200px;
+  margin: 0;
+  padding: 0px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+#name, #email, #number, placeholder {
+  padding-left: 10px;
+  background-color: #E0F2F1;
+}
+
+#dropdown {
+  height: 25px;
+  width: 90px;
+  position: relative;
+  right: 60px;
+}
+
+.radio, .checkbox {
+  margin-bottom: 2px;
+  padding-bottom: 4px;
+  position: relative;
+  right: 80px;
+}
+
+.checkbox {
+  margin-bottom: 2px;
+  padding-bottom: 4px;
+  position: relative;
+  right: 55px;
+}
+
+textarea {
+  position: relative;
+  right: -15px;
+  background-color: #E0F2F1;
+}
+
+#submit {
+  background: #80DEEA;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 15px;
+  font-weight:bold;
+  box-shadow: 1px 2px 2px #4e4c80;
+}
+

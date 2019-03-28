@@ -1,0 +1,91 @@
+
+<html>
+  <body>
+    <h1 id="title">Welcome to the SOAS Coding Club</h1>
+    <form  id="survey-form">
+      <div id="description">
+        <h3>What do you want to learn about programming?</h3>
+      </div>
+      <div class="form-elements">
+        <div class="questions">
+          <label id="name-label" for="name">*What's your name? </label>
+        </div>
+        <div class="answers">
+          <input id="name" type="text" required placeholder="Type your name here">
+        </div>
+     </div>
+     <div class="form-elements">
+       <div class="questions">
+         <label id="email-label" for="email">*What's your email address?</label>
+      </div>
+      <div class="answers">
+        <input id="email" type="text" required placeholder="Type your email address here">
+      </div>
+     </div>
+     <div class="form-elements">
+      <div class="questions">
+        <label id="number-label" for="number">*What year are you in?</label>
+      </div>
+      <div class="answers">
+        <input id="number" type="number" min="1" max="4" required placeholder="Year of study">
+      </div>
+     </div>
+     <div class="form-elements">
+      <div class="questions">
+        <label id="name-label" for="name">*What is your gender? </label>
+      </div>
+      <div class="answers">
+        <select id="dropdown" name="gender">
+          <option disabled value>Select an option</option>
+          <option value="male">He/ Him</option>
+          <option value="female">She/ Her</option>
+          <option value="they">They</option>
+        </select>
+      </div>
+     </div>
+     <div class="form-elements">
+      <div class="questions">
+        <label id="name-label" for="name">*Have you done any coding before? </label>
+      </div>
+      <div class="answers">
+       <div class="radio">
+        <label for="coding-yes">
+          <input id="coding-yes" type="radio" name="coding-confirmation" value="1"> Yes</label>        </div>
+       <div class="radio">
+        <label for="coding-no">
+          <input id="coding-no" type="radio" name="coding-confirmation" value="2"> No</label>
+       </div>
+     </div>
+    </div>
+    <div class="form-elements">
+     <div class="questions">
+      <label id="name-label" for="name">*What  language are you interested in learning <br>(Check all that apply):</label>
+     </div>
+     <div class="answers">
+      <div class="checkbox">
+        <label for="learn-html">
+          <input id="learn-html" type="checkbox" name="coding-lang" value="1"> HTML</label><br>
+      </div>
+      <div class="checkbox">
+        <label for="learn-javascript">
+          <input id="learn-javascript" type="checkbox" name="coding-lang" value="2"> JavaScript</label><br>
+      </div>
+      <div class="checkbox">
+        <label for="learn-python">
+          <input id="learn-python" type="checkbox" name="coding-lang" value="3"> Python</label>
+      </div>
+     </div>
+    </div>
+    <div class="form-elements">
+      <div class="questions">
+        <label id="name-label" for="name">*What type of projects would you like to work on?</label>
+      </div>
+      <div class="answers">
+        <textarea name="coding-projects" rows="8" cols="30" placeholder="Answer here"></textarea>
+      </div>
+     </div>
+     <button id="submit" type="submit">Submit</button>
+    </form>  
+  </body>
+</html>
+
